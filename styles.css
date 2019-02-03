@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.all-add{
+    max-width: 500px;
+    margin: auto;;
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif,'Roboto Condensed', Helvetica, sans-serif;
     color: #777;
@@ -54,7 +59,6 @@ header #search-note input {
     margin: 10px 0 40px 0;
 }
 
-////////////
 
 .note-list ul {
     list-style: none;
@@ -161,6 +165,128 @@ li{
     font-size: 10px;
 }
 
+
+/*second add*/
+
+.titleSecond {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#add-notes2 {
+    background: #F44336;
+    border-top: 20px solid #D32F2F;
+    border-bottom: 20px solid #D32F2F;
+    color: #fff;
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.add-part input[type='text'] {
+    padding: 5px 0 5px 2px;
+    width: 250px;
+}
+.add-part input {
+    border-radius: 2px;
+}
+
+input {
+    color: #777;
+    outline: none;
+    border: 1px solid #777;
+}
+
+.add-part input[type='submit'] {
+    padding: 5px 0;
+    width: 70px;
+    background: #e66465;
+    color: #fff;
+}
+
+.add-part input[type='submit']:hover {
+    border: 1px solid white;
+}
+
+/* - Tareas - */
+.tasks .lista {
+    list-style: none;
+    padding-bottom: 5%;
+}
+
+.tasks .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tasks .lista li p {
+	color: #212121;
+	display: block;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+
+.tasks .lista li p:hover {
+	text-decoration: line-through;
+}
+
+
+/*Third add*/
+
+
+#add-notes3{
+    max-width: 400px;
+    text-align: center;
+}
+.add-part3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#add-btn3{
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    background-color: #F66907;
+    color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    left: 323px;
+}
+
+.add-part3 input[type='text'] {
+    padding: 5px 0 5px 2px;
+    width: 250px;
+}
+.add-part3 input {
+    border-radius: 2px;
+}
+
+
+
+#add-btn3:hover {
+    border: 1px solid white;
+    background-color: #dc143c;
+}
+
+input.lista-check  {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.list-click{
+    text-align: start;
+    padding-left: 5%;
+}
 
 
 

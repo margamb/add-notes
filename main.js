@@ -109,3 +109,70 @@ searchInput.addEventListener('keyup', function(e) {
       });
 
 });
+
+
+////////////// ****SECOND ADD*****//////////////////
+
+// ADD
+
+var ul2 = document.getElementById('lista')
+
+document.getElementById('add-btn2').addEventListener('click', function(e) {
+    e.preventDefault();
+
+    var addInput2 = document.getElementById('add-input2');
+
+    if(addInput2.value !== '') {
+        var li = document.createElement('li');
+        var firstPar2 = document.createElement('p');
+        
+    li.setAttribute('type', 'type'); // Establece el valor de un atributo en el elemento indicado. Element.setAttribute(name, value);
+
+    firstPar2.textContent = addInput2.value;
+
+    li.appendChild(firstPar2)
+    ul2.appendChild(li);
+    firstPar2.value = '';
+    }
+}); 
+
+
+// DELETE ITEMS
+
+
+ul2.addEventListener('click', function(e) { // Cuando hace click en ul2
+    var liElement = e.target.parentElement // e.target-> detecte el sitio del click, 
+    ul2.removeChild(liElement)
+});
+
+
+// ADD 3list
+
+
+document.getElementById('add-btn3').addEventListener('click', function(e) {
+    e.preventDefault();
+
+    var texto = document.getElementById('add-input3').value;
+
+    if(texto !== '') {
+      
+        var checkbox = document.createElement(input);
+        checkbox.
+        var linetext = document.createElement('texto');
+        
+    checkbox.setAttribute('checkbox', 'type'); // Establece el valor de un atributo en el elemento indicado. Element.setAttribute(name, value);
+
+   // linetext.textContent = addInput3.value;
+
+    
+    // input.appendChild(checkbox);
+    // label.appendChild(linetext);
+    // checkbox.value = '';
+    }
+}); 
+
+// Cuando hago click en + :
+// 1-Seleccionar el texto
+// Crear checkbox
+// Añadir el texto a la checkbox
+// Añadir el texto y l checkbox al documento

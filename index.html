@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
+    <div class='all-add'>
     <div class="wrapper">
         <header>
             <h2> Note Manager</h2>
@@ -45,7 +46,46 @@
                 <input type="submit" value="Add" id="add-btn">
             </form>
         </div>
-    </div>    
+    </div>  
+    
+    <p class='titleSecond'>Second add</p>
+
+    <div id="add-notes2">
+        <form class='add-part' action="">
+            <input type="text" id='add-input2' placeholder='Add a note...'>
+            <input type='submit' value='Add' id='add-btn2'>
+        </form>
+    </div>
+    <div class='tasks'>
+        <div class="wrap">
+            <ul class="lista" id="lista">
+                <li><p>Learn html.</p></li>
+                <li><p>Learn css.</p></li>
+                <li><p>Learn Javascript.</p></li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    <div id="add-notes3">
+            <p class='titleSecond'>Third add</p>
+            <form class='add-part3' action="">
+                <input type="text" id='add-input3' placeholder='Add a note...'>
+                <input type='submit' value='+' id='add-btn3'>
+            </form>
+
+            <form action="" class='list-click'>
+                <input type="checkbox" class="lista-check">
+                <label class="texto"></label>
+            </form>
+            
+            <!--  <div id="hide-list">
+            <label for="hide">Hide notes</label>
+            <input type="checkbox" id="hide">
+        </div>-->
+    </div>
+    </div>
 </body>
 <script src="main.js"></script>
 </html>
